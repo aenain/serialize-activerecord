@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'serialize-rails/coders/marshal_column'
+require 'serialize_active_record/coders/marshal_column'
 
 module ActiveRecord
   module Coders

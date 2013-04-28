@@ -1,6 +1,6 @@
 require 'test_helper'
-require 'serialize-rails/coders/gzip_column'
-require 'serialize-rails/coders/json_column'
+require 'serialize_active_record/coders/gzip_column'
+require 'serialize_active_record/coders/json_column'
 
 module ActiveRecord
   module Coders

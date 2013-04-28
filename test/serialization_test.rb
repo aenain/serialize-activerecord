@@ -1,8 +1,8 @@
 require 'test_helper'
 require 'active_record_helper'
-require 'serialize-rails/coders/gzip_column'
-require 'serialize-rails/coders/json_column'
-require 'serialize-rails/serialization'
+require 'serialize_active_record/coders/gzip_column'
+require 'serialize_active_record/coders/json_column'
+require 'serialize_active_record/serialization'
 
 # mostly already tested in AR tests, and did not change much
 class SerializationTest < ActiveSupport::TestCase

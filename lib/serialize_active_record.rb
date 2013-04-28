@@ -1,0 +1,5 @@
+require 'serialize_active_record/serialization'
+require 'serialize_active_record/coders/json_column'
+require 'serialize_active_record/coders/xml_column'
+require 'serialize_active_record/coders/marshal_column'
+require 'serialize_active_record/coders/gzip_column'

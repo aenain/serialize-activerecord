@@ -1,5 +1,5 @@
 require 'test_helper'
-require 'serialize-rails/coders/xml_column'
+require 'serialize_active_record/coders/xml_column'
 
 module ActiveRecord
   module Coders

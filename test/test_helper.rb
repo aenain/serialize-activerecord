@@ -4,7 +4,7 @@ ENV["RAILS_ENV"] = "test"
 require 'test/unit'
 require 'active_support/all'
 require 'active_record'
-require 'serialize-rails'
+require 'serialize_active_record'
 require 'active_record/errors'
 # require 'mocha'
 
