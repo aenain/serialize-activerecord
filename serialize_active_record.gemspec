@@ -1,7 +1,7 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "serialize-activerecord/version"
+require "serialize_active_record/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|

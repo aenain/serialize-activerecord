@@ -1,7 +1,7 @@
 = Serialize for ActiveRecord (previously Serialize for Rails)
 
 ActiveRecord already supports serialization of attributes, but it can only do Yaml.
-This gem upgrades the default Rails serialize method so you can serialize into
+This gem upgrades the default ActiveRecord serialize method so you can serialize into
 yaml, json, xml and with marshal (Ruby binary format). It also supports gzipping
 the output if you want it to take up less space.
 
@@ -25,4 +25,4 @@ recommended to allow strings of arbitrary length.
 
 It has been tested on Ruby 1.9.3-p392 and Ruby 2.0.0-p0.
 
-Since version 0.0.3 this gem doesn't require Rails anymore, it requires only ActiveRecord instead.
+This gem doesn't require Rails anymore, it requires only ActiveRecord instead.
